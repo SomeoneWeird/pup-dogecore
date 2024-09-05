@@ -1,0 +1,30 @@
+{
+  "manifestVersion": 1,
+  "meta": {
+    "name": "Dogecoin Core",
+    "version": "0.0.1",
+    "logoPath": ""
+  },
+  "config": {
+    "sections": null
+  },
+  "container": {
+    "build": {
+      "nixFile": "pup.nix",
+      "nixFileSha256": "d51ce67a3b7612d20366ac9dc6d18f019caab89f58c402630fd5fbeb4a05b53f"
+    },
+    "services": [
+      {
+        "name": "dogecoin-core",
+        "command": {
+          "exec": "/bin/dogecoind -datadir /storage/core -disablewallet",
+          "cwd": "",
+          "env": null
+        }
+      }
+    ],
+    "exposes": []
+  },
+  "permissionGroups": [],
+  "dependencies": []
+}
