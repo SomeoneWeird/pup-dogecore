@@ -1,4 +1,4 @@
-{ pkgs, lib }:
+{ pkgs }:
 
 let
   coreVersion = "1.14.8";
@@ -70,13 +70,6 @@ let
       pkgsWithOverlay.protobuf
       pkgsWithOverlay.qrencode
     ];
-
-    meta = with lib; {
-      description = "Allows anyone to operate a node in the Dogecoin blockchain networks";
-      homepage = "https://dogecoin.com";
-      license = licenses.mit;
-      platforms = platforms.all;
-    };
   };
 
 in

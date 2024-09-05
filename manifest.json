@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "meta": {
     "name": "Dogecoin Core",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "logoPath": ""
   },
   "config": {
@@ -11,7 +11,7 @@
   "container": {
     "build": {
       "nixFile": "pup.nix",
-      "nixFileSha256": "d51ce67a3b7612d20366ac9dc6d18f019caab89f58c402630fd5fbeb4a05b53f"
+      "nixFileSha256": "7b4754d7c5802e16614ffc9b07ff8bba12d3477e7730feb5102ceb44af020700"
     },
     "services": [
       {
